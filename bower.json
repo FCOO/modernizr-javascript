@@ -1,0 +1,35 @@
+{
+  "name": "modernizr-javascript",
+  "version": "1.0.0",
+  "homepage": "https://github.com/FCOO/modernizr-javascript",
+  "authors": [
+    "Niels Holt"
+  ],
+  "description": "",
+  "main": [
+    "dist/modernizr-javascript.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FCOO/modernizr-javascript.git"
+  },
+  "dependencies": {
+    "jquery": "latest"
+  },
+  "devDependencies": {
+    "bourbon": "latest",
+    "modernizr-mixin": "latest",
+    "mathsass": "latest"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "moduleType": [
+    "es6"
+  ]
+}
