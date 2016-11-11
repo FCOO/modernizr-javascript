@@ -4,6 +4,7 @@
 
 ## Description
 Javascript functions to set and toggle class-names according to modernizr tests
+Both as global (`window`) functions and as jQuery prototypes
 
 ## Installation
 ### bower
@@ -20,6 +21,10 @@ See [FCOO/modernizr-scss](https://github.com/FCOO/modernizr-scss) to see how to 
     window.modernizrOn( test ); 
     window.modernizrOff( test );
     window.modernizrToggle( test, on );
+
+    $(selector).modernizrOn( test );
+    $(selector).modernizrOff( test );
+    $(selector).modernizrToggle( test, on ); 
 
 #### Example
     modernizrOn( 'my-test'); //Add class-name 'my-test' to <html> and remove class-name 'no-my-test' from <html>
