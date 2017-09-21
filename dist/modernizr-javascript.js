@@ -25,7 +25,7 @@
         
         modernizrToggle: function( test, on ){ 
 		if ( on === undefined )
-            this.modernizrToggle( test, !this.hasClass( test ) );
+            return this.modernizrToggle( test, !this.hasClass( test ) );
 
             on = !!on; //on => Boolean
             return this.toggleClass( test, on ).toggleClass( 'no-' + test, !on );
